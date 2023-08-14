@@ -4,7 +4,7 @@ Write a program that can print the song "99 Bottles of Beer".
 
 ## The Song
 
-```
+```bash
 99 bottles of beer on the wall, 99 bottles of beer.
 Take one down and pass it around, 98 bottles of beer on the wall.
 98 bottles of beer on the wall, 98 bottles of beer.
@@ -34,9 +34,31 @@ Go to the store and buy some more, 99 bottles of beer on the wall.
 ```
 
 ## Considerations
+
 * Take note of how the 'bottles' turns to 'bottle' at the right time
 * You can certainly use `while`, `for`, `forEach`, and various other built in methods
 
+## Running the Test
+
+This exercise includes a test suite with `jest` to help you exercise your Test Driven Development. Utilize the following steps to run the test suite:
+
+* Install dependencies
+
+    ```bash
+     # terminal command
+     npm install
+    ```
+
+* Run the test suite
+
+    ```bash
+     #terminal command
+     npm test
+    ```
+
+Remember to run the test suite and watch it fail **`BEFORE YOU WRITE ANY CODE`**. Inspect the tests expected return and then determine how to make your function meet the tests requirements.
+
 ## Challenge Yourself
+
 * Make your code able to take in and account for any bottle amount
 * Refactor your code so it doesn't use any loops or iteration whatsoever
