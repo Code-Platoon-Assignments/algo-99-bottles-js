@@ -3,3 +3,4 @@ function bottleSong() {
 };
 
 bottleSong();
+module.exports = { bottleSong };
